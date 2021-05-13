@@ -1,0 +1,13 @@
+name: "exemplo_distill"
+title: "My Blog distill"
+description: |
+  My Blog distill
+output_dir: "docs"
+navbar:
+  right:
+    - icon: "fas fa-home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
+theme: custom.css
